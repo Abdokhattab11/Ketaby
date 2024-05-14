@@ -12,10 +12,7 @@ const connectionString = process.env.CONNECTION_STRING.replace(
 // Connect to mongoDB server via mongoose
 
 mongoose
-  .connect(connectionString, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(connectionString)
   .then(() => {
     console.log("Connected to MongoDB");
   })
