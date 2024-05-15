@@ -1,5 +1,3 @@
-const Book = require("../models/book");
-
 /**
  * Get all books from the database and filter them by the query parameters
  * @param {*} req

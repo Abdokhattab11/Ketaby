@@ -6,6 +6,7 @@ const app = express();
 app.use(express.json());
 
 const bookRouter = require("./routes/bookRouter");
+const authorRouter = require("./routes/authorRouter");
 
 // CORS Middleware for allowing requests from the frontend
 app.use(function (req, res, next) {
@@ -19,5 +20,6 @@ app.use(function (req, res, next) {
 
 // Mouting the bookRouter on /book
 app.use("/api/v1/book", bookRouter);
+app.use("/api/v1/author", authorRouter);
 
 module.exports = app;
