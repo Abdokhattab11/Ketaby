@@ -1,552 +1,602 @@
 [
   {
-    "id": 101,
-    "title": "The Hidden Treasure",
+    "book_id": 101,
+    "title": "The Hbook_idden Treasure",
     "author_id": 1,
     "genre": "Mystery",
     "publication_year": 2018,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.7,
     "number_of_pages": 191,
-    "number_of_ratings": 721
+    "number_of_ratings": 721,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 102,
+    "book_id": 102,
     "title": "Lost in Time",
     "author_id": 2,
     "genre": "Science Fiction",
     "publication_year": 2020,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.9,
     "number_of_pages": 306,
-    "number_of_ratings": 699
+    "number_of_ratings": 699,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 103,
+    "book_id": 103,
     "title": "El Misterio del Faro",
     "author_id": 3,
     "genre": "Thriller",
     "publication_year": 2019,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.3,
     "number_of_pages": 158,
-    "number_of_ratings": 180
+    "number_of_ratings": 180,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 104,
+    "book_id": 104,
     "title": "Die verlorene Welt",
     "author_id": 4,
     "genre": "Adventure",
     "publication_year": 2017,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.3,
     "number_of_pages": 160,
-    "number_of_ratings": 1037
+    "number_of_ratings": 1037,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 105,
+    "book_id": 105,
     "title": "The Lost Symbol",
     "author_id": 5,
     "genre": "Mystery",
     "publication_year": 2009,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.1,
     "number_of_pages": 511,
-    "number_of_ratings": 426
+    "number_of_ratings": 426,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 106,
+    "book_id": 106,
     "title": "Le Petit Prince",
     "author_id": 6,
     "genre": "Fantasy",
     "publication_year": 1943,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.6,
     "number_of_pages": 555,
-    "number_of_ratings": 990
+    "number_of_ratings": 990,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 107,
+    "book_id": 107,
     "title": "夜行観覧車",
     "author_id": 7,
     "genre": "Horror",
     "publication_year": 2004,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.9,
     "number_of_pages": 547,
-    "number_of_ratings": 1035
+    "number_of_ratings": 1035,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 108,
+    "book_id": 108,
     "title": "The Master and Margarita",
     "author_id": 8,
     "genre": "Fantasy",
     "publication_year": 1967,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.7,
     "number_of_pages": 598,
-    "number_of_ratings": 1014
+    "number_of_ratings": 1014,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 109,
-    "title": "Cem Anos de Solidão",
+    "book_id": 109,
+    "title": "Cem Anos de Solbook_idão",
     "author_id": 9,
     "genre": "Magical Realism",
     "publication_year": 1967,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4,
     "number_of_pages": 428,
-    "number_of_ratings": 185
+    "number_of_ratings": 185,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 110,
+    "book_id": 110,
     "title": "Red Sorghum",
     "author_id": 10,
     "genre": "Historical Fiction",
     "publication_year": 1986,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.4,
     "number_of_pages": 298,
-    "number_of_ratings": 747
+    "number_of_ratings": 747,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 111,
+    "book_id": 111,
     "title": "The Da Vinci Code",
     "author_id": 1,
     "genre": "Mystery",
     "publication_year": 2003,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.7,
     "number_of_pages": 539,
-    "number_of_ratings": 484
+    "number_of_ratings": 484,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 112,
+    "book_id": 112,
     "title": "Harry Potter and the Philosopher's Stone",
     "author_id": 2,
     "genre": "Fantasy",
     "publication_year": 1997,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.7,
     "number_of_pages": 574,
-    "number_of_ratings": 154
+    "number_of_ratings": 154,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 113,
+    "book_id": 113,
     "title": "Don Quijote de la Mancha",
     "author_id": 3,
     "genre": "Classic",
     "publication_year": 1605,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4,
     "number_of_pages": 281,
-    "number_of_ratings": 406
+    "number_of_ratings": 406,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 114,
+    "book_id": 114,
     "title": "Faust",
     "author_id": 4,
     "genre": "Tragedy",
     "publication_year": 1808,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.2,
     "number_of_pages": 246,
-    "number_of_ratings": 759
+    "number_of_ratings": 759,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 115,
+    "book_id": 115,
     "title": "Crime and Punishment",
     "author_id": 5,
     "genre": "Psychological Fiction",
     "publication_year": 1866,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.7,
     "number_of_pages": 400,
-    "number_of_ratings": 550
+    "number_of_ratings": 550,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 116,
+    "book_id": 116,
     "title": "Les Misérables",
     "author_id": 6,
     "genre": "Historical Fiction",
     "publication_year": 1862,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.1,
     "number_of_pages": 168,
-    "number_of_ratings": 907
+    "number_of_ratings": 907,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 117,
+    "book_id": 117,
     "title": "In Search of Lost Time",
     "author_id": 7,
     "genre": "Autobiographical Novel",
     "publication_year": 1913,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.9,
     "number_of_pages": 268,
-    "number_of_ratings": 209
+    "number_of_ratings": 209,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 118,
+    "book_id": 118,
     "title": "War and Peace",
     "author_id": 8,
     "genre": "Historical Novel",
     "publication_year": 1869,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4,
     "number_of_pages": 457,
-    "number_of_ratings": 413
+    "number_of_ratings": 413,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 119,
+    "book_id": 119,
     "title": "One Hundred Years of Solitude",
     "author_id": 9,
     "genre": "Magical Realism",
     "publication_year": 1967,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.3,
     "number_of_pages": 395,
-    "number_of_ratings": 959
+    "number_of_ratings": 959,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 120,
+    "book_id": 120,
     "title": "Journey to the West",
     "author_id": 10,
     "genre": "Fantasy",
     "publication_year": 1592,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 5,
     "number_of_pages": 393,
-    "number_of_ratings": 249
+    "number_of_ratings": 249,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 121,
+    "book_id": 121,
     "title": "The Catcher in the Rye",
     "author_id": 1,
     "genre": "Coming-of-Age Fiction",
     "publication_year": 1951,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.6,
     "number_of_pages": 178,
-    "number_of_ratings": 1053
+    "number_of_ratings": 1053,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 122,
+    "book_id": 122,
     "title": "To Kill a Mockingbird",
     "author_id": 2,
     "genre": "Southern Gothic",
     "publication_year": 1960,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 5,
     "number_of_pages": 263,
-    "number_of_ratings": 627
+    "number_of_ratings": 627,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 123,
+    "book_id": 123,
     "title": "1984",
     "author_id": 3,
     "genre": "Dystopian",
     "publication_year": 1949,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.8,
     "number_of_pages": 574,
-    "number_of_ratings": 420
+    "number_of_ratings": 420,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 124,
-    "title": "Pride and Prejudice",
+    "book_id": 124,
+    "title": "Prbook_ide and Prejudice",
     "author_id": 4,
     "genre": "Romance",
     "publication_year": 1813,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 5,
     "number_of_pages": 572,
-    "number_of_ratings": 586
+    "number_of_ratings": 586,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 125,
+    "book_id": 125,
     "title": "Jane Eyre",
     "author_id": 5,
     "genre": "Gothic",
     "publication_year": 1847,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.1,
     "number_of_pages": 145,
-    "number_of_ratings": 947
+    "number_of_ratings": 947,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 126,
+    "book_id": 126,
     "title": "Wuthering Heights",
     "author_id": 6,
     "genre": "Gothic Fiction",
     "publication_year": 1847,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.4,
     "number_of_pages": 267,
-    "number_of_ratings": 435
+    "number_of_ratings": 435,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 127,
+    "book_id": 127,
     "title": "The Hobbit",
     "author_id": 7,
     "genre": "Fantasy",
     "publication_year": 1937,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.9,
     "number_of_pages": 457,
-    "number_of_ratings": 180
+    "number_of_ratings": 180,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 128,
+    "book_id": 128,
     "title": "Moby-Dick",
     "author_id": 8,
     "genre": "Adventure",
     "publication_year": 1851,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.4,
     "number_of_pages": 179,
-    "number_of_ratings": 370
+    "number_of_ratings": 370,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 129,
+    "book_id": 129,
     "title": "The Great Gatsby",
     "author_id": 9,
     "genre": "Tragedy",
     "publication_year": 1925,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4,
     "number_of_pages": 156,
-    "number_of_ratings": 449
+    "number_of_ratings": 449,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 130,
+    "book_id": 130,
     "title": "Ulysses",
     "author_id": 10,
     "genre": "Modernist",
     "publication_year": 1922,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 5,
     "number_of_pages": 372,
-    "number_of_ratings": 1062
+    "number_of_ratings": 1062,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 131,
+    "book_id": 131,
     "title": "Brave New World",
     "author_id": 1,
     "genre": "Dystopian",
     "publication_year": 1932,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4,
     "number_of_pages": 377,
-    "number_of_ratings": 461
+    "number_of_ratings": 461,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 132,
+    "book_id": 132,
     "title": "The Picture of Dorian Gray",
     "author_id": 2,
     "genre": "Gothic Fiction",
     "publication_year": 1890,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.6,
     "number_of_pages": 303,
-    "number_of_ratings": 613
+    "number_of_ratings": 613,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 133,
+    "book_id": 133,
     "title": "The Count of Monte Cristo",
     "author_id": 3,
     "genre": "Adventure",
     "publication_year": 1844,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.7,
     "number_of_pages": 211,
-    "number_of_ratings": 432
+    "number_of_ratings": 432,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 134,
+    "book_id": 134,
     "title": "The Brothers Karamazov",
     "author_id": 4,
     "genre": "Philosophical novel",
     "publication_year": 1880,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 5,
     "number_of_pages": 473,
-    "number_of_ratings": 684
+    "number_of_ratings": 684,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 135,
+    "book_id": 135,
     "title": "Frankenstein",
     "author_id": 5,
     "genre": "Gothic",
     "publication_year": 1818,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.7,
     "number_of_pages": 487,
-    "number_of_ratings": 685
+    "number_of_ratings": 685,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 136,
+    "book_id": 136,
     "title": "The War of the Worlds",
     "author_id": 6,
     "genre": "Science Fiction",
     "publication_year": 1898,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.5,
     "number_of_pages": 380,
-    "number_of_ratings": 344
+    "number_of_ratings": 344,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 137,
+    "book_id": 137,
     "title": "The Adventures of Huckleberry Finn",
     "author_id": 7,
     "genre": "Picaresque novel",
     "publication_year": 1884,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.9,
     "number_of_pages": 210,
-    "number_of_ratings": 704
+    "number_of_ratings": 704,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 138,
+    "book_id": 138,
     "title": "The Divine Comedy",
     "author_id": 8,
     "genre": "Epic poetry",
     "publication_year": 1320,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.6,
     "number_of_pages": 463,
-    "number_of_ratings": 215
+    "number_of_ratings": 215,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 139,
+    "book_id": 139,
     "title": "The Canterbury Tales",
     "author_id": 9,
     "genre": "Verse",
     "publication_year": 1400,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.5,
     "number_of_pages": 123,
-    "number_of_ratings": 390
+    "number_of_ratings": 390,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 140,
+    "book_id": 140,
     "title": "Anna Karenina",
     "author_id": 10,
     "genre": "Realist novel",
     "publication_year": 1877,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.1,
     "number_of_pages": 128,
-    "number_of_ratings": 677
+    "number_of_ratings": 677,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 141,
+    "book_id": 141,
     "title": "The Sun Also Rises",
     "author_id": 1,
     "genre": "Modernist",
     "publication_year": 1926,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 3.4,
     "number_of_pages": 462,
-    "number_of_ratings": 337
+    "number_of_ratings": 337,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 142,
+    "book_id": 142,
     "title": "Dracula",
     "author_id": 2,
     "genre": "Gothic",
     "publication_year": 1897,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.7,
     "number_of_pages": 399,
-    "number_of_ratings": 730
+    "number_of_ratings": 730,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 143,
+    "book_id": 143,
     "title": "Gulliver's Travels",
     "author_id": 3,
     "genre": "Satire",
     "publication_year": 1726,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.6,
     "number_of_pages": 199,
-    "number_of_ratings": 1008
+    "number_of_ratings": 1008,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 144,
-    "title": "Middlemarch",
+    "book_id": 144,
+    "title": "Mbook_iddlemarch",
     "author_id": 4,
     "genre": "Realist novel",
     "publication_year": 1871,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.5,
     "number_of_pages": 193,
-    "number_of_ratings": 617
+    "number_of_ratings": 617,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 145,
+    "book_id": 145,
     "title": "Heart of Darkness",
     "author_id": 5,
     "genre": "Novella",
     "publication_year": 1899,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.8,
     "number_of_pages": 243,
-    "number_of_ratings": 287
+    "number_of_ratings": 287,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 146,
+    "book_id": 146,
     "title": "Alice's Adventures in Wonderland",
     "author_id": 6,
     "genre": "Fantasy",
     "publication_year": 1865,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.3,
     "number_of_pages": 318,
-    "number_of_ratings": 1064
+    "number_of_ratings": 1064,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 147,
+    "book_id": 147,
     "title": "The Sound and the Fury",
     "author_id": 7,
     "genre": "Modernist",
     "publication_year": 1929,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 5,
     "number_of_pages": 370,
-    "number_of_ratings": 535
+    "number_of_ratings": 535,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 148,
+    "book_id": 148,
     "title": "The Old Man and the Sea",
     "author_id": 8,
     "genre": "Novella",
     "publication_year": 1952,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.3,
     "number_of_pages": 578,
-    "number_of_ratings": 966
+    "number_of_ratings": 966,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 149,
+    "book_id": 149,
     "title": "The Iliad",
     "author_id": 9,
     "genre": "Epic poetry",
     "publication_year": -800,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.8,
     "number_of_pages": 197,
-    "number_of_ratings": 111
+    "number_of_ratings": 111,
+    "cover": "http://localhost:8080/cover.jpg"
   },
   {
-    "id": 150,
+    "book_id": 150,
     "title": "The Odyssey",
     "author_id": 10,
     "genre": "Epic poetry",
     "publication_year": -800,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incbook_idbook_idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupbook_idatat non probook_ident, sunt in culpa qui officia deserunt mollit anim book_id est laborum.",
     "rating": 4.1,
     "number_of_pages": 512,
-    "number_of_ratings": 770
+    "number_of_ratings": 770,
+    "cover": "http://localhost:8080/cover.jpg"
   }
 ]

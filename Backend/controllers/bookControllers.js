@@ -1,13 +1,32 @@
+const bookModel = require("../models/bookModel");
+const getAuthorIdByName = require("./test");
+
 /**
  * Get all books from the database and filter them by the query parameters
  * @param {*} req
  * @param {*} res
- * @QueryParams author, category, rating, publishedDate
+ * @QueryParams author, category, rating, publishedDate, limit, page , sortBy
  * @returns {Array} - An array of books
  */
-exports.getAllBooks = async (req, res) => {};
+exports.getAllBooks = async (req, res) => {
+  console.log(req.query);
+  const query = bookModel.find();
+  const QueryParams = req.query;
+  // ---------------- Author Filter ----------------
+  if (QueryParams.author) {
+    // chain the query with the author filter
+    // From author name we will get first author id
+    const authorId = await getAuthorIdByName(QueryParams.author);
+    console.log(authorId);
+    query.find({ author_id: authorId });
+  }
+
+  const books = await query;
+  res.status(200).json(books);
+};
 
 /**
+ *
  * Get a book by its ID and If not exist Return 404
  * @param {*} req
  * @param {*} res

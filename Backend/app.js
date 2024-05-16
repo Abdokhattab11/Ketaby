@@ -1,9 +1,14 @@
 const express = require("express");
+const morgan = require("morgan");
 
 const app = express();
 
 // For Parsing Body For HTTP request
 app.use(express.json());
+app.use(morgan("dev"));
+
+// Handle Serving Static files in public folder
+app.use(express.static(`${__dirname}/data`));
 
 const bookRouter = require("./routes/bookRouter");
 const authorRouter = require("./routes/authorRouter");
@@ -18,8 +23,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-// Mouting the bookRouter on /book
 app.use("/api/v1/book", bookRouter);
-//app.use("/api/v1/author", authorRouter);
+app.use("/api/v1/author", authorRouter);
 
 module.exports = app;
