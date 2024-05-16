@@ -5,6 +5,7 @@ const AppContext = createContext();
 
 function AppContextProvider({ children }) {
   const [favourites, setFavourites] = useState([]);
+  const [showSideNav, setShowSideNav] = useState(false);
 
   function handleFavouritesClick(book) {
     if (isProductInFavourites(book)) {
@@ -26,6 +27,8 @@ function AppContextProvider({ children }) {
         favourites,
         handleFavouritesClick,
         isProductInFavourites,
+        showSideNav,
+        setShowSideNav,
       }}
     >
       {children}

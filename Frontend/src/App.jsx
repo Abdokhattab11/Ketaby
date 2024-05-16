@@ -16,10 +16,10 @@ function App() {
           <Route element={<AppLayout />}>
             <Route index element={<Navigate to="/home" />} />
             <Route path="home" element={<Home />} />
-            <Route path="book/:bookId" element={<BookDetails />} />
             <Route path="author" element={<Author />} />
             <Route path="createbook" element={<CreateBook />} />
             <Route path="favourite" element={<Favourites />} />
+            <Route path="book/:bookId" element={<BookDetails />} />
           </Route>
         </Routes>
 

@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { booksWithId } from "../../services/books";
 import StarRating from "../../ui/StarRating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +13,7 @@ function BookDetails() {
 
   return (
     <div className="book-details flex">
-      <div className="flex flex-col justify-between">
+      <div className="flex flex-col" style={{ gap: "3rem" }}>
         <h2 className="book-details-title">{book[0].title}</h2>
         <p className="book-details-desc">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis libero
@@ -24,7 +24,9 @@ function BookDetails() {
           numquam fuga dolorem explicabo! Lorem ipsum dolor sit amet
           consectetur, adipisicing elit. Porro, incidunt.
         </p>
-        <p className="book-details-author">By {book[0].author}</p>
+        <Link to="/author" className="book-details-author">
+          By {book[0].author}
+        </Link>
         <div>
           <button
             className="fav-btn flex align-center"

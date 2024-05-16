@@ -2,7 +2,7 @@ import Logo from "./Logo";
 function Footer() {
   return (
     <footer className="footer">
-      <div style={{ borderRight: "1px solid #ccc", padding: "2rem" }}>
+      <div style={{ borderRight: "1px solid #cccccc67", padding: "2rem" }}>
         <Logo />
         <div>
           <p className="footer-desc">
