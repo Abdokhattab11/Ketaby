@@ -20,6 +20,6 @@ app.use(function (req, res, next) {
 
 // Mouting the bookRouter on /book
 app.use("/api/v1/book", bookRouter);
-app.use("/api/v1/author", authorRouter);
+//app.use("/api/v1/author", authorRouter);
 
 module.exports = app;
