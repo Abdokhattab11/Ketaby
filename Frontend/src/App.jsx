@@ -6,7 +6,7 @@ import Author from "./pages/Author";
 import CreateBook from "./pages/CreateBook";
 import Favourites from "./pages/Favourites";
 import AppLayout from "./ui/AppLayout";
-import BookDetails from "./features/BookDetails";
+import BookDetails from "./features/books/BookDetails";
 
 function App() {
   return (

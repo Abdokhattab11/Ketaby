@@ -3,7 +3,7 @@ function SideNav() {
     <aside className="sidenav">
       <div>
         <span>Filter Options</span>
-        <ul className="x">
+        <ul>
           <li>Best Books</li>
           <li>Most Rated Books</li>
           <li>Featured Books</li>
@@ -15,7 +15,7 @@ function SideNav() {
 
       <span>Category</span>
       <br />
-      <div className="d">
+      <div>
         <input type="checkbox" />
         <span>Action</span>
         <br />

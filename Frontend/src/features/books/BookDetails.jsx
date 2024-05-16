@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import { booksWithId } from "../services/books";
-import StarRating from "../ui/StarRating";
+import { booksWithId } from "../../services/books";
+import StarRating from "../../ui/StarRating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../../context/AppContext";
 
 function BookDetails() {
   const { handleFavouritesClick, isProductInFavourites } = useAppContext();

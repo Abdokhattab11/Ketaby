@@ -11,17 +11,15 @@ function Home() {
   const indexOfFirstBook = indexOfLastBook - booksPerPage;
   const currentBooks = booksWithId.slice(indexOfFirstBook, indexOfLastBook);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
   return (
     <div className="home">
       <h1 className="title">Books</h1>
       <Books books={currentBooks} />
       <Pagination
-        totalBooks={booksWithId.length}
+        setCurrentPage={setCurrentPage}
         currentPage={currentPage}
+        totalBooks={booksWithId.length}
         booksPerPage={booksPerPage}
-        paginate={paginate}
       />
     </div>
   );

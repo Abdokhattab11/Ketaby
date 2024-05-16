@@ -1,17 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import Logo from "./Logo";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="s">
-        <h3>
-          <FontAwesomeIcon icon={faBookOpen} className="i1" /> Ketaby
-        </h3>
-      </div>
+      <Logo />
       <div className="search">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="magn" />
       </div>
