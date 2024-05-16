@@ -1,8 +1,19 @@
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useAppContext } from "../context/AppContext";
+
 function SideNav() {
+  const { setShowSideNav } = useAppContext();
+
   return (
     <aside className="sidenav">
       <div>
-        <span>Filter Options</span>
+        <div className="flex align-center justify-between">
+          <span>Filter Options</span>
+          <div className="close-icon" onClick={() => setShowSideNav(false)}>
+            <FontAwesomeIcon icon={faXmark} />
+          </div>
+        </div>
         <ul>
           <li>Best Books</li>
           <li>Most Rated Books</li>
