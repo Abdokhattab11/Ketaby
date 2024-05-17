@@ -5,7 +5,10 @@ const AppContext = createContext();
 
 function AppContextProvider({ children }) {
   const [favourites, setFavourites] = useState([]);
-  const [showSideNav, setShowSideNav] = useState(false);
+  const [category, setCategory] = useState([]);
+  const [showSideNav, setShowSideNav] = useState("hidden");
+  const [allBooks, setAllBooks] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   function handleFavouritesClick(book) {
     if (isProductInFavourites(book)) {
@@ -29,6 +32,12 @@ function AppContextProvider({ children }) {
         isProductInFavourites,
         showSideNav,
         setShowSideNav,
+        category,
+        setCategory,
+        allBooks,
+        setAllBooks,
+        isLoading,
+        setIsLoading,
       }}
     >
       {children}

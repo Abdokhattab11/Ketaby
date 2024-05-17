@@ -19,6 +19,7 @@ function BookDetails() {
     rating,
     number_of_pages: numPages,
     number_of_ratings: numRating,
+    publication_year: publicationYear,
     cover,
   } = book;
 
@@ -44,6 +45,12 @@ function BookDetails() {
           <p className="book-genre">
             Genre: <span>{genre}</span>
           </p>
+          <p className="book-pages">
+            Number Of Pages: <span>{numPages}</span>
+          </p>
+          <p className="book-pages">
+            Publication Year: <span>{publicationYear}</span>
+          </p>
         </div>
         <Link to="/author" className="book-details-author">
           By Author
@@ -64,7 +71,7 @@ function BookDetails() {
 
       <div className="flex flex-col align-center image-box">
         <img className="image" src={cover} alt={book.title} />
-        <StarRating rating={Math.ceil(rating)} />
+        <StarRating rating={Math.floor(rating)} />
         <p>Rates ({numRating})</p>
       </div>
     </div>

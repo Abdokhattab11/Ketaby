@@ -36,6 +36,28 @@ export async function bookPagination(limit, page) {
   }
 }
 
+export async function filterBooksByGenre(genre) {
+  try {
+    const res = await fetch(`${BASE_URL}?genre=${genre}`);
+    if (!res.ok) console.log("Error Connection");
+    const data = res.json();
+    return data;
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+export async function sortByApi(sortBy, desc) {
+  try {
+    const res = await fetch(`${BASE_URL}?sortBy=${desc ? "-" : ""}${sortBy}`);
+    if (!res.ok) console.log("Error Connection");
+    const data = res.json();
+    return data;
+  } catch (err) {
+    console.log(err);
+  }
+}
+
 // try {
 //   await fetch("/api/createUser", {
 //     method: "POST",

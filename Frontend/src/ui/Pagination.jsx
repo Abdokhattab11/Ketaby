@@ -9,7 +9,7 @@ function Pagination({ totalBooks, booksPerPage, setCurrentPage, currentPage }) {
   }
 
   return (
-    <div className="pagination flex align-center justify-center">
+    <div className="pagination flex justify-center">
       <button
         className="left-arrow"
         onClick={() => setCurrentPage((p) => (p > 1 ? p - 1 : 1))}

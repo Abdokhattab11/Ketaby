@@ -14,7 +14,7 @@ function CreateBook() {
   }
 
   return (
-    <div className="createbook-section">
+    <div className="createbook-section flex flex-col align-center">
       <h2>Add Your Own Book</h2>
       <form className="createbook-form flex flex-col" onSubmit={handleSubmit}>
         <Input
