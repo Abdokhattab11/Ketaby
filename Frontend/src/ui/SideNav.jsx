@@ -68,6 +68,7 @@ function SideNav() {
           <div key={book.book_id} className="flex align-center category-item">
             <input
               type="checkbox"
+              checked={category.some((item) => item === book.genre)}
               id={book.genre}
               value={category}
               onChange={() => {

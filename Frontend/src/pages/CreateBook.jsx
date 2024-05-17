@@ -10,7 +10,11 @@ function CreateBook() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    const newBook = {};
+    const newBook = {
+      title: bookTitle,
+      book_url: bookUrl,
+      description: aboutBook,
+    };
   }
 
   return (

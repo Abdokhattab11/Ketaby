@@ -25,31 +25,51 @@ export async function getBookById(id) {
   }
 }
 
-export async function bookPagination(limit, page) {
-  try {
-    const res = await fetch(`${BASE_URL}?limit=${limit}&page=${page}`);
-    if (!res.ok) console.log("Error Connection");
-    const data = res.json();
-    return data;
-  } catch (err) {
-    console.log(err);
-  }
-}
+// export async function bookPagination(limit, page) {
+//   try {
+//     const res = await fetch(`${BASE_URL}?limit=${limit}&page=${page}`);
+//     if (!res.ok) console.log("Error Connection");
+//     const data = res.json();
+//     return data;
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
 
-export async function filterBooksByGenre(genre) {
-  try {
-    const res = await fetch(`${BASE_URL}?genre=${genre}`);
-    if (!res.ok) console.log("Error Connection");
-    const data = res.json();
-    return data;
-  } catch (err) {
-    console.log(err);
-  }
-}
+// export async function filterBooksByGenre(genre) {
+//   try {
+//     const res = await fetch(`${BASE_URL}?genre=${genre}`);
+//     if (!res.ok) console.log("Error Connection");
+//     const data = res.json();
+//     return data;
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
 
-export async function sortByApi(sortBy, desc) {
+// export async function sortByApi(sortBy, desc) {
+//   try {
+//     const res = await fetch(`${BASE_URL}?sortBy=${desc ? "-" : ""}${sortBy}`);
+//     if (!res.ok) console.log("Error Connection");
+//     const data = res.json();
+//     return data;
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+export async function sortAndFilterWithPagination({
+  sortBy,
+  desc,
+  genre,
+  limit,
+  page,
+}) {
   try {
-    const res = await fetch(`${BASE_URL}?sortBy=${desc ? "-" : ""}${sortBy}`);
+    const res = await fetch(
+      `${BASE_URL}?sortBy=${
+        desc ? "-" : ""
+      }${sortBy}&genre=${genre}&limit=${limit}&page=${page}`
+    );
     if (!res.ok) console.log("Error Connection");
     const data = res.json();
     return data;

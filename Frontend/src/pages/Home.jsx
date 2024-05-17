@@ -5,12 +5,7 @@ import Features from "../ui/Features";
 import Footer from "../ui/Footer";
 import SideNav from "../ui/SideNav";
 import { useAppContext } from "../context/AppContext";
-import {
-  bookPagination,
-  filterBooksByGenre,
-  getAllBooks,
-  sortByApi,
-} from "../services/apiBooks";
+import { getAllBooks, sortAndFilterWithPagination } from "../services/apiBooks";
 import Spinner from "../ui/Spinner";
 
 function Home() {
@@ -28,36 +23,25 @@ function Home() {
   const [sortBy, setSortBy] = useState("SortBy");
   const [totalBooks, setTotalBooks] = useState(0);
 
-  // useEffect(
-  //   function () {
-
-  //   },
-  //   [setAllBooks, setIsLoading, sortBy]
-  // );
   useEffect(function () {
     getAllBooks().then((res) => setTotalBooks(res.lengthOfData));
   }, []);
 
   useEffect(
     function () {
-      bookPagination(booksPerPage, currentPage).then((res) => {
+      sortAndFilterWithPagination({
+        sortBy: "publication_year",
+        desc: sortBy === "publication_year" ? false : true,
+        genre: category.join(","),
+        limit: booksPerPage,
+        page: currentPage,
+      }).then((res) => {
         setIsLoading(true);
         setAllBooks(res.data);
         setIsLoading(false);
       });
     },
-    [currentPage, booksPerPage, setAllBooks, setIsLoading]
-  );
-
-  useEffect(
-    function () {
-      filterBooksByGenre(category.join(",")).then((res) => {
-        setIsLoading(true);
-        if (category.length > 0) setAllBooks(res.data);
-        setIsLoading(false);
-      });
-    },
-    [category, setAllBooks, setIsLoading]
+    [category, setAllBooks, setIsLoading, currentPage, booksPerPage, sortBy]
   );
 
   return (
@@ -69,17 +53,7 @@ function Home() {
             <select
               className="sortby"
               value={sortBy}
-              onChange={(e) => {
-                setSortBy(e.target.value);
-                sortByApi(
-                  "publication_year",
-                  sortBy === "publication_yearDesc" ? false : true
-                ).then((res) => {
-                  setIsLoading(true);
-                  setAllBooks(res.data);
-                  setIsLoading(false);
-                });
-              }}
+              onChange={(e) => setSortBy(e.target.value)}
             >
               <option>Sort By</option>
               <option value={"publication_yearDesc"}>
