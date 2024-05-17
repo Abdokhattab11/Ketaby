@@ -35,7 +35,7 @@ a {
 /* Navbar */
 .navbar {
   background-color: var(--color-purple-light);
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 3rem;
   width: 100%;
   height: 4rem;
   border-bottom: 1px solid var(--color-border);
@@ -127,7 +127,7 @@ a {
 /* ///////////////////////////////////////// */
 /* Home */
 .home {
-  padding: 2rem;
+  padding: 3rem;
   width: 100%;
   background-color: var(--color-purple-light);
   border-bottom: 1px solid var(--color-border);
@@ -141,12 +141,17 @@ a {
   gap: 1.5rem;
 }
 .book {
-  padding: 1rem;
+  width: 22rem;
+  padding: 0.8rem;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   position: relative;
-  gap: 1rem;
+  gap: 0.5rem;
+  transition: all 0.3s;
+}
+.book:hover {
+  transform: translateY(-8px);
 }
 .book .image {
   width: 7rem;
@@ -171,6 +176,7 @@ a {
   right: 7px;
   transition: color 0.3s;
   cursor: pointer;
+  z-index: 2;
 }
 .book .fav-icon.active {
   color: var(--color-purple-dark);
@@ -213,7 +219,15 @@ a {
   padding: 1.5rem 3rem;
   border-bottom: 1px solid var(--color-border);
 }
+.book-genre {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.book-genre span {
+  font-weight: 500;
+}
 .book-details-author {
+  width: fit-content;
   font-weight: 600;
   font-style: italic;
   transition: all 0.3s;
@@ -223,6 +237,13 @@ a {
 }
 .image-box {
   gap: 1rem;
+}
+.image-box .image {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 13rem;
+  background-color: #fff;
 }
 .fav-btn {
   color: #fff;
@@ -368,4 +389,54 @@ textarea::placeholder {
 }
 .map-photo {
   width: 20rem;
+}
+
+/* ///////////////////////////////////////// */
+/* Spinner */
+.spinner-box {
+  padding-top: 10rem;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-purple-light);
+}
+.lds-ring,
+.lds-ring div {
+  box-sizing: border-box;
+}
+.lds-ring {
+  color: var(--color-purple-dark);
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  margin: 8px;
+  border: 6px solid currentColor;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -9,7 +9,7 @@ function AppContextProvider({ children }) {
 
   function handleFavouritesClick(book) {
     if (isProductInFavourites(book)) {
-      setFavourites((list) => list.filter((i) => book.id !== i.id));
+      setFavourites((list) => list.filter((i) => book.book_id !== i.book_id));
       toast.error("Removed from Favourites");
     } else {
       setFavourites([...favourites, book]);
@@ -18,7 +18,7 @@ function AppContextProvider({ children }) {
   }
 
   function isProductInFavourites(book) {
-    return favourites.some((item) => item.id === book.id);
+    return favourites.some((item) => item.book_id === book.book_id);
   }
 
   return (
