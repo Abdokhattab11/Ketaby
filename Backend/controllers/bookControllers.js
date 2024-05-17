@@ -17,6 +17,10 @@ exports.getAllBooks = async (req, res) => {
       const sortBy = QueryParams.sortBy.split(",").join(" ");
       query.sort(sortBy);
     }
+    // ---------------- Title Filter ----------------
+    if (QueryParams.title) {
+      query.find({ title: QueryParams.title });
+    }
     // ---------------- Author Filter ----------------
     if (QueryParams.author) {
       // chain the query with the author filter
