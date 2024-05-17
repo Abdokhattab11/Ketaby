@@ -52,7 +52,7 @@ function BookDetails() {
             Publication Year: <span>{publicationYear}</span>
           </p>
         </div>
-        <Link to="/author" className="book-details-author">
+        <Link to={`/author/${book.author_id}`} className="book-details-author">
           By Author
         </Link>
         <div>

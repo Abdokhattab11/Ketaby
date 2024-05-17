@@ -1,7 +1,4 @@
 const BASE_URL = "http://localhost:8080/api/v1/book";
-//localhost:8080/api/v1/book?author=Name&
-// title=Name&genre=genre1,genre2,genre3&
-// limit=10&page=3&sortBy=publication_year,-rating
 
 export async function getAllBooks() {
   try {
@@ -57,6 +54,7 @@ export async function getBookById(id) {
 //     console.log(err);
 //   }
 // }
+
 export async function sortAndFilterWithPagination({
   sortBy,
   desc,

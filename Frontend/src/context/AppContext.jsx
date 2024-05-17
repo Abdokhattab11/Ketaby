@@ -9,6 +9,7 @@ function AppContextProvider({ children }) {
   const [showSideNav, setShowSideNav] = useState("hidden");
   const [allBooks, setAllBooks] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [filterOption, setFilterOption] = useState("");
 
   function handleFavouritesClick(book) {
     if (isProductInFavourites(book)) {
@@ -38,6 +39,8 @@ function AppContextProvider({ children }) {
         setAllBooks,
         isLoading,
         setIsLoading,
+        filterOption,
+        setFilterOption,
       }}
     >
       {children}

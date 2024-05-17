@@ -17,6 +17,7 @@ function Home() {
     setAllBooks,
     setIsLoading,
     isLoading,
+    filterOption,
   } = useAppContext();
   const [currentPage, setCurrentPage] = useState(1);
   const [booksPerPage] = useState(6);
@@ -42,6 +43,81 @@ function Home() {
       });
     },
     [category, setAllBooks, setIsLoading, currentPage, booksPerPage, sortBy]
+  );
+
+  useEffect(
+    function () {
+      if (filterOption === "Best Books")
+        sortAndFilterWithPagination({
+          sortBy: "rating",
+          desc: true,
+          genre: category.join(","),
+          limit: booksPerPage,
+          page: currentPage,
+        }).then((res) => {
+          setIsLoading(true);
+          setAllBooks(res.data);
+          setIsLoading(false);
+        });
+    },
+    [
+      booksPerPage,
+      category,
+      currentPage,
+      setAllBooks,
+      filterOption,
+      setIsLoading,
+    ]
+  );
+
+  useEffect(
+    function () {
+      if (filterOption === "Lowest Rating")
+        sortAndFilterWithPagination({
+          sortBy: "rating",
+          desc: false,
+          genre: category.join(","),
+          limit: booksPerPage,
+          page: currentPage,
+        }).then((res) => {
+          setIsLoading(true);
+          setAllBooks(res.data);
+          setIsLoading(false);
+        });
+    },
+    [
+      booksPerPage,
+      category,
+      currentPage,
+      setAllBooks,
+      filterOption,
+      setIsLoading,
+    ]
+  );
+
+  useEffect(
+    function () {
+      if (filterOption === "Newest Books")
+        sortAndFilterWithPagination({
+          sortBy: "publication_year",
+          desc: true,
+          genre: category.join(","),
+          limit: booksPerPage,
+          page: currentPage,
+        }).then((res) => {
+          setIsLoading(true);
+          setAllBooks(res.data);
+          setIsLoading(false);
+        });
+    },
+    [
+      booksPerPage,
+      category,
+      currentPage,
+      setAllBooks,
+      filterOption,
+      setIsLoading,
+    ]
   );
 
   return (

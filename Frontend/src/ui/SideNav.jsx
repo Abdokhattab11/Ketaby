@@ -5,9 +5,15 @@ import { useEffect, useState } from "react";
 import { getAllBooks } from "../services/apiBooks";
 
 function SideNav() {
-  const { setShowSideNav, showSideNav, category, setCategory } =
-    useAppContext();
-  const [filterOption, setFilterOption] = useState("");
+  const {
+    setShowSideNav,
+    showSideNav,
+    category,
+    setCategory,
+    filterOption,
+    setFilterOption,
+  } = useAppContext();
+
   const [books, setBooks] = useState([]);
 
   useEffect(function () {
@@ -36,28 +42,16 @@ function SideNav() {
             Best Books
           </li>
           <li
-            onClick={() => setFilterOption("Most Rated Books")}
-            className={`${filterOption === "Most Rated Books" ? "active" : ""}`}
+            onClick={() => setFilterOption("Lowest Rating")}
+            className={`${filterOption === "Lowest Rating" ? "active" : ""}`}
           >
-            Most Rated Books
-          </li>
-          <li
-            onClick={() => setFilterOption("Featured Books")}
-            className={`${filterOption === "Featured Books" ? "active" : ""}`}
-          >
-            Featured Books
+            Lowest Rating
           </li>
           <li
             onClick={() => setFilterOption("Newest Books")}
             className={`${filterOption === "Newest Books" ? "active" : ""}`}
           >
             Newest Books
-          </li>
-          <li
-            onClick={() => setFilterOption("Watch History")}
-            className={`${filterOption === "Watch History" ? "active" : ""}`}
-          >
-            Watch History
           </li>
         </ul>
       </div>
