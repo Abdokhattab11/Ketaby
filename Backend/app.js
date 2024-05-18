@@ -23,6 +23,7 @@ app.use(function (req, res, next) {
   next();
 });
 
+// Mounting Routers
 app.use("/api/v1/book", bookRouter);
 app.use("/api/v1/author", authorRouter);
 

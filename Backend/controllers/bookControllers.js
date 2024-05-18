@@ -26,7 +26,6 @@ exports.getAllBooks = async (req, res) => {
       // chain the query with the author filter
       // From author name we will get first author id
       const authorId = await getAuthorIdByName(QueryParams.author);
-      console.log(authorId);
       query.find({ author_id: authorId });
     }
     // ---------------- Category Filter ----------------

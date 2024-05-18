@@ -4,7 +4,6 @@ const authorModel = require("../models/authorModel");
  * Get All Authors from the database and filter them by the query parameters
  * @param {*} req
  * @param {*} res
- * @QueryParams  rating, nationality
  * @returns {Array} authors
  */
 exports.getAllAuthors = async (req, res) => {
@@ -30,6 +29,7 @@ exports.getAllAuthors = async (req, res) => {
  * Get Author by Id and if not exists return 404
  * @param {*} req
  * @param {*} res
+ * @QueryParams id
  * @returns {Object} author
  */
 exports.getAuthorById = async (req, res) => {
@@ -65,7 +65,8 @@ exports.createAuthor = async (req, res) => {
 };
 exports.deleteAuthor = async (req, res) => {
   try {
-    await authorModel.findByIdAndDelete(req.params.author_id);
+    // Delete Author by mongoDB ID
+    await authorModel.findByIdAndDelete(req.params.id);
     res.status(200);
   } catch (e) {
     res.send(404).json({ massage: e });
@@ -81,6 +82,7 @@ exports.deleteAuthor = async (req, res) => {
  */
 exports.updateAuthor = async (req, res) => {
   try {
+    // update by MongoDB ID
     const author = await authorModel.findByIdAndUpdate(req.params.id, req.body);
     res.status(200).json({
       status: "success",
