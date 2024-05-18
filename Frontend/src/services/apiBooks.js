@@ -76,14 +76,16 @@ export async function sortAndFilterWithPagination({
   }
 }
 
-// try {
-//   await fetch("/api/createUser", {
-//     method: "POST",
-//     headers: {
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify(data),
-//   });
-// } catch (err) {
-//   console.error("Error:", err);
-// }
+export async function addNewBook(newBook) {
+  try {
+    await fetch(`${BASE_URL}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newBook),
+    });
+  } catch (err) {
+    console.error("Error:", err);
+  }
+}

@@ -6,6 +6,7 @@ import { useAppContext } from "../../context/AppContext";
 import { useEffect, useState } from "react";
 import { getBookById } from "../../services/apiBooks";
 import Spinner from "../../ui/Spinner";
+import { getAuthorById } from "../../services/apiAuthor";
 
 function BookDetails() {
   const { handleFavouritesClick, isProductInFavourites } = useAppContext();
@@ -53,7 +54,7 @@ function BookDetails() {
           </p>
         </div>
         <Link to={`/author/${book.author_id}`} className="book-details-author">
-          By Author
+          Info About Auhtor
         </Link>
         <div>
           <button

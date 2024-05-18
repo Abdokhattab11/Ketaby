@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Input from "../ui/Input";
+import { addNewBook } from "../services/apiBooks";
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 function CreateBook() {
   const [bookTitle, setBookTitle] = useState("");
@@ -10,8 +13,9 @@ function CreateBook() {
   const [numPages, setNumPages] = useState(0);
   const [numRating, setNumRating] = useState(0);
   const [publishYear, setPublishYear] = useState(0);
+  const navigate = useNavigate();
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
     const newBook = {
       title: bookTitle,
@@ -22,8 +26,17 @@ function CreateBook() {
       number_of_pages: Number(numPages),
       number_of_ratings: Number(numRating),
       cover: "http://localhost:8080/cover.jpg",
+      author_id: Math.floor(Math.random() * 10) + 1,
+      book_id: Math.floor(Math.random() * 10) + 1,
     };
-    console.log(newBook);
+
+    try {
+      await addNewBook(newBook);
+      toast.success("Added Book Successfully");
+      navigate("/home");
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   return (
